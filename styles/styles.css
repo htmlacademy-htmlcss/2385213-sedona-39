@@ -1698,7 +1698,6 @@ margin-bottom: 16px;
 .modal {
   position: relative;
   margin: auto;
-  margin-top: 397px;
   padding: 65px 70px;
   background-color: #ffffff;
   width: 717px;
@@ -1849,6 +1848,7 @@ background-color: rgba(230, 230, 230, 1);
 
 .less-quantity-button {
   width: 40px;
+  background-color: rgba(242, 242, 242, 1);
 }
 
 
