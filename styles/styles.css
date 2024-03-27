@@ -211,7 +211,7 @@
 
   .hero {
     background-color: #ffffff;
-    background-image: url("../images/Group\ 36.jpg");
+    background-image: url("../images/back-hero.jpg");
     background-size: cover, contain;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -286,7 +286,7 @@
 }
 
   .img-favorite {
-    background-image: url("../images/Heart.svg");
+    background-image: url("../images/heart-favorite.svg");
   }
 
   .navigation-user-link-favotite {
@@ -325,7 +325,7 @@
   .subscribe {
     color: #ffffff;
     background-color: #000000;
-    background-image: url("../images/Subscribe.jpg");
+    background-image: url("../images/subscribe.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -464,7 +464,7 @@
 
   .flters-hotels {
     color: #ffffff;
-    background-image: url("../images/Фильтр.jpg");
+    background-image: url("../images/filter.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -866,6 +866,18 @@ margin-bottom: 40px;
   transform: translateX(-1px) scale(0);
 }
 
+.control:focus {
+  opacity: 0.6;
+}
+
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
 .control-input:checked + .custom-checkbox::before {
   transform: translateX(-1px) scale(1);
 }
@@ -908,19 +920,6 @@ font-family: "PT Sans", sans-serif;
 font-weight: 400;
 font-size: 18px;
 line-height: 23px;
-color: rgba(255, 255, 255, 0.9);;
-}
-
-.catalog-type-living:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.catalog-type-living:focus {
-  color: rgba(255, 255, 255, 1);
-}
-
-.catalog-type-living:active {
-  color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -939,20 +938,7 @@ margin: 0;
 }
  .catalog-input-name {
   margin-left: 36px;
-  color: rgba(255, 255, 255, 0.9);
  }
-
- .catalog-input-name:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
-.catalog-input-name:focus {
-  color: rgba(255, 255, 255, 1);
-}
-
-.catalog-input-name:active {
-  color: rgba(255, 255, 255, 0.3);
-}
 
 .view-buttons {
   max-width: 170px;
@@ -1051,7 +1037,7 @@ li {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   appearance: none;
-  background-image: url(../images/Select-arrow.svg);
+  background-image: url(../images/select-arrow.svg);
   background-repeat: no-repeat;
   background-position: center right 19px;
   background-color: transparent;
@@ -1290,7 +1276,7 @@ fill: #68A2CA;
 
 .breadcrumb::after {
   content: "";
-  background-image:url(../images/Vector.svg);
+  background-image:url(../images/vector.svg);
   position: absolute;
   height: 10px;
   width: 7px;
@@ -1610,7 +1596,7 @@ margin-bottom: 16px;
 }
 
 .souvenir {
-  background-image: url(../images/Suvenir.svg);
+  background-image: url(../images/suvenir.svg);
   background-repeat: no-repeat;
   background-position: center;
   display: block;
@@ -1968,19 +1954,18 @@ top: 312px;
   width: 20px;
   height: 20px;
   background: #ffffff;
-  border: 2px solid #242424;
   border-radius: 5px;
   cursor: pointer;
   border: none;
 }
 
 .range-toggle:hover {
-  background-color: #dbb590;
+  background-color: #FFFFFF;
 }
 
-.range-toggle:active,
-.range-toggle:focus {
-  outline: 3px solid #dbb590;
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+  border-radius: 5px;
 }
 
 .toggle-min {
